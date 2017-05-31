@@ -1,0 +1,19 @@
+<section>
+	<span *ngIf="!person" class="fa fa-spin fa-spinner"></span>
+
+	<table *ngIf="person">
+		<tr>
+			<td>testtest</td>
+			<td>
+				{{person.name}}
+			</td>
+			<td>
+				{{person.height}}
+			</td>
+			<td>
+				{{person.mass}}
+			</td>
+		</tr>	
+
+	</table>
+</section>
