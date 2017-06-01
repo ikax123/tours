@@ -17,19 +17,21 @@
       font-weight: 400;
       margin-bottom: 30px;
   }  
-  .jumbotron {
-      background-color: #f4511e;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
+   .jumbotron {
+      background-color: #818181 !important;
+      overflow: hidden;
       background-size: cover;
       background-position: center;
       background-image: url("assets/images/georgia.jpg") !important;
       background-repeat: no-repeat !important;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
       height: 500px;
   }
+
   .container-fluid {
-      padding: 60px 50px;
+      padding: 0px 0px !important;
   }
   .bg-grey {
       background-color: #f6f6f6;
