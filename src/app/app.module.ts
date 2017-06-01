@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import 'rxjs/add/operator/map';
 import { AboutComponent } from './about/about.component';
 import { ServicesComponent } from './services/services.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { PricingComponent } from './pricing/pricing.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { ToursgeoComponent } from './toursgeo/toursgeo.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
@@ -24,8 +24,8 @@ import { StarwarsComponent } from './starwars/starwars.component';
     AppComponent,
     AboutComponent,
     ServicesComponent,
-    PortfolioComponent,
-    PricingComponent,
+    GalleryComponent,
+    ToursgeoComponent,
     ContactComponent,
     HeaderComponent,
     CarouselComponent,
