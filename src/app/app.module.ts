@@ -11,7 +11,6 @@ import { ToursgeoComponent } from './toursgeo/toursgeo.component';
 import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { CarouselComponent } from './carousel/carousel.component';
-import { GooglemapComponent } from './googlemap/googlemap.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { TranslateComponent } from './translate/translate.component';
@@ -29,7 +28,6 @@ import { StarwarsComponent } from './starwars/starwars.component';
     ContactComponent,
     HeaderComponent,
     CarouselComponent,
-    GooglemapComponent,
     NavbarComponent,
     FooterComponent,
     TranslateComponent,
