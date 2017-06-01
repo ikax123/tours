@@ -19,10 +19,16 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #f4511e !important;
+      background-color: #818181 !important;
+      overflow: hidden;
+      background-size: cover;
+      background-position: center;
+      background-image: url("assets/images/georgia.jpg") !important;
+      background-repeat: no-repeat !important;
       color: #fff;
       padding: 100px 25px;
       font-family: Montserrat, sans-serif;
+      height: 500px;
   }
   .container-fluid {
       padding: 60px 50px;

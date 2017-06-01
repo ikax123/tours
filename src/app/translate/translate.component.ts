@@ -7,11 +7,11 @@ import {TranslateService} from 'ng2-translate';
 })
 export class TranslateComponent {
     constructor(private translate: TranslateService) {
-        translate.addLangs(["en", "fr"]);
+        translate.addLangs(["en", "ge","ru"]);
         translate.setDefaultLang('en');
 
         let browserLang = translate.getBrowserLang();
-        translate.use(browserLang.match(/en|fr/) ? browserLang : 'en');
+        translate.use(browserLang.match(/ge|en|ru/) ? browserLang : 'en');
     }
 }
 
