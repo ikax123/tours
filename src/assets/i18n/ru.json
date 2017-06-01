@@ -1,7 +1,13 @@
 {
   "HOME": {
-    "TITLE": "Hello Angular 2 with ng2-translate!",
-    "SELECT": "Change language",
-    "COMPANY_NAME": "Guja Paezdka" 
+    "COMPANY_NAME": "гудзжа тревел" 
+  },
+
+   "NAVIGATE": {
+       "ABOUT": "о нас", 
+       "TOURS": "тури", 
+       "SERVICES": "сервиси", 
+       "GALLERY": "галереа", 
+       "CONTACT": "контакт" 
   }
 }

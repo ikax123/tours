@@ -1,7 +1,13 @@
 {
   "HOME": {
-    "TITLE": "Hello Angular 2 with ng2-translate!",
-    "SELECT": "Change language",
     "COMPANY_NAME": "Guja Travel" 
+  },
+  
+  "NAVIGATE": {
+       "ABOUT": "ABOUT", 
+       "TOURS": "TOURS", 
+       "SERVICES": "SERVICES", 
+       "GALLERY": "GALLERY", 
+       "CONTACT": "CONTACT" 
   }
 }
