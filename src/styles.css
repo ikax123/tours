@@ -114,7 +114,7 @@
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e !important;
+      background-color: transparent;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -125,7 +125,7 @@
       border-bottom-color:#f4511e !important;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: #fff !important;
+      color: black !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #f4511e !important;
@@ -133,7 +133,7 @@
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-      color: #fff !important;
+    
   }
 
   .glyphicon {
