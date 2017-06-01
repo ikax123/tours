@@ -1,5 +1,4 @@
-/* You can add global styles to this file, and also import other style files */
-  body {
+ body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
@@ -19,15 +18,14 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #818181 !important;
-      overflow: hidden;
+      background-color: #f4511e;
+      color: #fff;
+      padding: 100px 25px;
+      font-family: Montserrat, sans-serif;
       background-size: cover;
       background-position: center;
       background-image: url("assets/images/georgia.jpg") !important;
       background-repeat: no-repeat !important;
-      color: #fff;
-      padding: 100px 25px;
-      font-family: Montserrat, sans-serif;
       height: 500px;
   }
   .container-fluid {
@@ -114,7 +112,7 @@
   }
   .navbar {
       margin-bottom: 0;
-      background-color: transparent;
+      background-color: #f4511e !important;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -122,10 +120,9 @@
       letter-spacing: 4px;
       border-radius: 0;
       font-family: Montserrat, sans-serif;
-      border-bottom-color:#f4511e !important;
   }
   .navbar li a, .navbar .navbar-brand {
-      color: black !important;
+      color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #f4511e !important;
@@ -133,20 +130,12 @@
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
-    
+      color: #fff !important;
   }
-
-  .glyphicon {
+  footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
       color: #f4511e;
-  }
-
-
-  footer .glyphicon {
-      font-size: 20px !important;
-      margin-bottom: 20px !important;
-      color: #f4511e !important;
   }
   .slideanim {visibility:hidden;}
   .slide {
